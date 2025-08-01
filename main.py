@@ -156,12 +156,12 @@ class TelegramBot:
         await update.message.reply_text("مرحباً! أنا بوت تيليجرام الجديد. كيف يمكنني مساعدتك؟")
 
     async def help_command(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
-     help_text = (
-        "الأوامر المتاحة:\n"
-        "/start - بدء التفاعل مع البوت\n"
-        "/help - إظهار هذه المساعدة\n\n"
-        "أرسل أي رسالة للتفاعل مع البوت."
-    )
+   #  help_text = (
+   #     "الأوامر المتاحة:\n"
+   #     "/start - بدء التفاعل مع البوت\n"
+   #     "/help - إظهار هذه المساعدة\n\n"
+   #     "أرسل أي رسالة للتفاعل مع البوت."
+   # )
      await update.message.reply_text(help_text)
 
 
