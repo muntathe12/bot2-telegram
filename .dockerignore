@@ -1,0 +1,13 @@
+# ملفات وأدلة لتجاهلها عند بناء Docker image
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.git
+.pytest_cache
+.coverage
+.tox
+.env
+*.log
+bot_session.lock
+persistence
