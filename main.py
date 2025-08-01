@@ -157,13 +157,9 @@ class TelegramBot:
 
     async def help_command(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
         help_text = (
-            "الأوامر المتاحة:
-"
-            "/start - بدء التفاعل مع البوت
-"
-            "/help - إظهار هذه المساعدة
-
-"
+            "الأوامر المتاحة:\n"
+            "/start - بدء التفاعل مع البوت\n"
+            "/help - إظهار هذه المساعدة\n\n"
             "أرسل أي رسالة للتفاعل مع البوت."
         )
         await update.message.reply_text(help_text)
